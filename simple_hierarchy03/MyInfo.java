@@ -1,0 +1,24 @@
+package javaassignment.simple_hierarchy03;
+
+class Vehicle {
+    String brand;
+
+    void start() {
+        System.out.println(brand + "กำลังสตาร์ท...");
+    }
+}
+
+class Car extends Vehicle {
+    void drive() {
+        System.out.println(brand + "กำลังขับเคลื่อนบนถนน");
+    }
+}
+
+public class MyInfo {
+    public static void main(String[] args) {
+        Car car = new Car();
+        car.brand = "Honda City";
+        car.start();
+        car.drive();
+    }
+}

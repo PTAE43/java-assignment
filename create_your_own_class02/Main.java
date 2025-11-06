@@ -1,4 +1,4 @@
-package javaassignment.createyourownclass02;
+package javaassignment.create_your_own_class02;
 
 public class Main {
     public static void main(String[] args) {
